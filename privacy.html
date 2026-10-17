@@ -1,7 +1,7 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>원게임즈 · privacy</title><style>body{max-width:920px;margin:40px auto;padding:0 22px;font:16px/1.8 system-ui,sans-serif;color:#202833;background:#fafbf9}nav{display:flex;gap:20px;flex-wrap:wrap;border-bottom:1px solid #d8dfd8;padding-bottom:18px}a{color:#24664b}h1{font-size:28px}h2{margin-top:44px}table{border-collapse:collapse;display:block;overflow:auto}td,th{border:1px solid #d8dfd8;padding:10px;min-width:90px}th{background:#eef3ed}pre{white-space:pre-wrap;overflow-wrap:anywhere}footer{margin-top:48px;border-top:1px solid #d8dfd8;padding-top:20px}</style></head><body><nav><a href="index.html">원게임즈</a><a href="terms.html">이용약관</a><a href="privacy.html">개인정보 처리방침</a></nav><main><h1 id="rpg">냥원정대 : 로그라이크 RPG 개인정보 처리방침</h1>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>냥원정대 개인정보 처리방침 · 원게임즈</title><style>body{max-width:920px;margin:40px auto;padding:0 22px;font:16px/1.8 system-ui,sans-serif;color:#202833;background:#fafbf9}nav{display:flex;gap:20px;flex-wrap:wrap;border-bottom:1px solid #d8dfd8;padding-bottom:18px}a{color:#24664b}h1{font-size:28px}h2{margin-top:44px}table{border-collapse:collapse;display:block;overflow:auto}td,th{border:1px solid #d8dfd8;padding:10px;min-width:90px}th{background:#eef3ed}footer{margin-top:48px;border-top:1px solid #d8dfd8;padding-top:20px}</style></head><body><nav><a href="index.html">원게임즈</a><a href="terms.html">이용약관</a><a href="privacy.html">개인정보 처리방침</a><a href="#account-deletion">계정 삭제</a></nav><main><h1 id="rpg">냥원정대 : 로그라이크 RPG 개인정보 처리방침</h1>
 <ul>
-<li>시행일: 2026년 10월 10일</li>
-<li>버전: 1.0</li>
+<li>시행일: 2026년 10월 17일</li>
+<li>버전: 1.1</li>
 </ul>
 <p>원게임즈(OneGames)를 운영하는 개인 개발자 원현호(이하 &quot;운영자&quot;)는 「개인정보 보호법」 제30조에 따라 이용자의 개인정보를 보호하고 관련 고충을 원활하게 처리하기 위해 이 개인정보 처리방침을 정하여 공개합니다.</p>
 <h2 id="section">한눈에 보기</h2>
@@ -14,16 +14,16 @@
 </thead>
 <tbody>
 <tr>
-<td>회원가입</td>
-<td>없습니다. 이름, 전화번호 등을 입력받지 않습니다</td>
+<td>계정 연동</td>
+<td>게스트 이용 또는 Google Play Games 계정 연동을 선택합니다. Google 비밀번호는 받지 않습니다</td>
 </tr>
 <tr>
 <td>게임 진행 정보</td>
-<td>이용자의 기기에만 저장합니다. 운영자 서버로 보내지 않습니다</td>
+<td>기기에 저장하며 계정 연동 시 Google Saved Games에 자동 동기화합니다</td>
 </tr>
 <tr>
 <td>결제</td>
-<td>Google Play가 처리합니다. 운영자는 결제 수단 정보를 받지 않으며, 구매 확인 정보는 기기에만 저장합니다 (제1조 ④)</td>
+<td>Google Play가 처리합니다. 결제 수단 정보는 받지 않습니다. 중복 지급 방지용 주문 식별자는 연동 시 진행과 함께 저장됩니다 (제1조 ④)</td>
 </tr>
 <tr>
 <td>광고</td>
@@ -69,11 +69,17 @@
 <td>보상형 광고 제공, 맞춤형 광고, 광고 성과 측정, 부정 이용 방지</td>
 <td>광고 SDK가 자동 수집 (제6조)</td>
 </tr>
+<tr>
+<td>계정 연동 및 진행 복원</td>
+<td>Play Games 플레이어 식별자, 게임 내 닉네임, 캐릭터·장비·재화·클리어·상품 이용 상태, 중복 지급 방지용 주문 식별자</td>
+<td>자동 저장, 다른 Android 기기의 진행 복원, 중복 지급 방지</td>
+<td>Google Play Games 로그인 및 연동 후 자동 동기화</td>
+</tr>
 </tbody>
 </table>
-<p>② 게임 진행 정보(캐릭터 성장, 보유 콘텐츠, 재화 등)는 이용자의 기기에만 저장되며 운영자가 수집하지 않습니다.</p>
+<p>② 게스트의 진행은 기기에 저장됩니다. 계정 연동 시 진행은 Google Play Games Saved Games의 해당 이용자·해당 게임 저장 영역에 전송됩니다. 운영자가 별도의 진행 저장 서버를 운영하지는 않으며 게임은 로그인한 이용자의 해당 게임 저장만 읽고 씁니다. SDK의 계정·진단·분석 정보 처리는 <a href="https://developer.android.com/games/pgs/data-collection">Google Play Games SDK 안내</a>와 Google 개인정보처리방침에 따릅니다.</p>
 <p>③ 게임은 인터넷 연결과 현재 시각을 확인하기 위해 외부 서버에 접속합니다. 이 과정에서 운영자는 개인정보를 저장하지 않습니다.</p>
-<p>④ 유료 상품을 구매하면 게임은 Google Play로부터 주문번호, 상품 ID, 구매 시각, 구매 영수증을 받아 기기 안에서 영수증이 올바른지 확인하고, 같은 주문을 두 번 지급하지 않도록 주문번호를 기기에 저장합니다. 이 정보는 운영자 서버로 보내지 않으며, 현재 사용하는 Unity IAP 5.3.1은 Unity 공식 안내상 앱 이용자의 개인정보를 수집하지 않습니다. Google Play 결제 정보의 처리는 Google 정책에 따릅니다.</p>
+<p>④ 유료 상품을 구매하면 게임은 Google Play로부터 주문번호, 상품 ID, 구매 시각, 구매 영수증을 받아 기기 안에서 영수증이 올바른지 확인합니다. 같은 주문을 두 번 지급하지 않도록 주문 식별자를 진행에 저장하며 계정 연동 시 Google Saved Games에 함께 동기화합니다. 결제 수단이나 비밀번호 및 구매 영수증 원문은 클라우드 진행에 포함하지 않습니다. Google Play 결제 정보의 처리는 Google 정책에 따릅니다.</p>
 <h2 id="section-2">제2조 (처리와 보유 기간)</h2>
 <p>① 운영자는 처리 목적을 달성하면 개인정보를 지체 없이 파기합니다. 다만 다음 정보는 법령에서 정한 기간 동안 보관합니다.</p>
 <table>
@@ -103,8 +109,9 @@
 </tbody>
 </table>
 <p>② 광고 사업자가 수집한 정보의 보유 기간은 제6조에 따릅니다.</p>
+<p>③ 연동한 게임 진행은 계정 탈퇴 또는 Google Play Games에서 해당 게임 데이터를 삭제할 때까지 저장됩니다. 게임 내 탈퇴 시 이전 진행의 재업로드를 막는 내용 없는 삭제 상태 표시가 남을 수 있으며, Google Play Games의 게임 데이터 삭제로 해당 서비스의 저장을 지울 수 있습니다.</p>
 <h2 id="section-3">제3조 (개인정보의 제3자 제공)</h2>
-<p>운영자는 고객 문의 정보를 임의로 판매하거나 제3자에게 제공하지 않습니다. 광고 SDK가 Google에 전송하는 정보는 제5조와 제6조에 안내합니다. 다만 법률에 특별한 규정이 있거나 수사기관이 법령에서 정한 절차에 따라 요청하는 경우에는 예외로 합니다.</p>
+<p>운영자는 고객 문의 정보를 임의로 판매하거나 제3자에게 제공하지 않습니다. 광고 SDK와 계정 연동 기능이 Google에 전송하는 정보는 제1조·제5조·제6조에 안내합니다. 다만 법률에 특별한 규정이 있거나 수사기관이 법령에서 정한 절차에 따라 요청하는 경우에는 예외로 합니다.</p>
 <h2 id="section-4">제4조 (개인정보 처리의 위탁)</h2>
 <p>운영자는 다음과 같이 개인정보 처리 업무를 위탁합니다.</p>
 <table>
@@ -118,6 +125,10 @@
 <tr>
 <td>Google LLC</td>
 <td>고객 문의 이메일의 수신과 보관 (Gmail)</td>
+</tr>
+<tr>
+<td>Google LLC</td>
+<td>선택한 계정 연동에 따른 게임 진행 저장 및 복원 (Play Games Saved Games)</td>
 </tr>
 </tbody>
 </table>
@@ -165,6 +176,7 @@
 </tbody>
 </table>
 <p>이용자는 이메일로 문의하지 않거나 광고 시청을 선택하지 않는 방법으로 해당 처리를 제한할 수 있습니다. 광고 ID 삭제만으로 IP 주소 등 다른 정보의 전송이나 국외 이전까지 중단되는 것은 아닙니다. 문의 이메일의 국외 이전을 거부하면 이메일 문의를 할 수 없고, 광고 ID를 삭제해도 게임 이용과 보상형 광고 시청은 가능합니다.</p>
+<p>계정 연동을 선택하면 제1조의 연동 정보와 게임 진행은 네트워크를 통해 Google LLC의 저장 서비스로 전송됩니다. Google은 여러 국가의 서버에서 정보를 처리할 수 있으며 처리 위치 및 Google이 보유하는 서비스 정보는 <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>에 따릅니다. 목적은 진행 저장·복원이고 게임 진행의 보유 기간은 제2조 ③과 같습니다. 게스트를 선택하여 클라우드 동기화를 이용하지 않을 수 있으며, 이 경우 다른 기기에서 진행을 복원할 수 없습니다.</p>
 <h2 id="section-6">제6조 (행태정보의 수집·이용과 거부)</h2>
 <p>① 게임에 포함된 광고 SDK는 다음과 같이 행태정보를 수집합니다.</p>
 <table>
@@ -212,21 +224,27 @@
 <p>① 이용자는 운영자에게 언제든지 자신의 개인정보 열람, 정정·삭제, 처리정지를 요구할 수 있습니다.</p>
 <p>② 요구는 onegames.dev@gmail.com으로 할 수 있으며, 운영자는 지체 없이 조치합니다. 다만 법령에서 보관하도록 정한 정보는 삭제를 요구할 수 없습니다.</p>
 <p>③ 만 14세 미만 아동의 법정대리인은 아동의 개인정보에 대해 위 권리를 행사할 수 있습니다. 운영자가 만 14세 미만 아동의 개인정보를 처리해야 하는 경우(예: 고객 문의)에는 법정대리인의 동의를 받습니다.</p>
-<p>④ 게임 진행 정보는 기기에만 저장되므로 이용자는 앱을 삭제하여 직접 지울 수 있습니다.</p>
-<h2 id="section-9">제9조 (개인정보의 안전성 확보 조치)</h2>
+<p>④ 게스트의 기기 저장은 앱 데이터 삭제로 지울 수 있습니다. 계정 연동 후에는 앱 삭제만으로 클라우드 진행이 삭제되지 않습니다. 아래 방법으로 연동된 게임 데이터를 삭제할 수 있습니다.</p>
+<h3 id="account-deletion">계정 및 게임 데이터 삭제</h3>
+<ul>
+<li>게임에서: 설정 → 계정 탈퇴 → 연동한 Google 계정 확인 → 삭제 완료. 이 게임의 캐릭터·장비·재화·진행이 삭제되며 Google 계정 자체나 스토어 구매 기록은 유지됩니다.</li>
+<li>게임을 설치하지 않은 경우: Google Play Games 설정의 ‘Play 게임즈 계정 및 데이터 삭제’에서 ‘냥원정대 : 로그라이크 RPG’의 개별 게임 데이터를 삭제합니다. 기기별 메뉴와 웹 삭제 방법은 <a href="https://support.google.com/googleplay/answer/9130646?hl=ko">Google 공식 삭제 안내</a>를 확인하세요. 기존 기기의 앱 데이터도 삭제하여 남아 있는 로컬 진행을 지울 수 있습니다.</li>
+<li>문의: onegames.dev@gmail.com. Google 비밀번호나 인증 코드는 보내지 마세요. 운영자는 이용자 인증으로 보호된 Google 저장 영역에 직접 접근하여 대신 삭제할 수 없습니다.</li>
+</ul>
+<h2 id="section-10">제9조 (개인정보의 안전성 확보 조치)</h2>
 <p>운영자는 개인정보를 안전하게 처리하기 위해 다음 조치를 합니다.</p>
 <ol>
 <li>개인정보를 다루는 사람을 개인정보 보호책임자 1인으로 제한합니다.</li>
 <li>고객 문의 계정과 개인정보에 대한 접근을 제한하고 인증정보를 안전하게 관리합니다.</li>
 <li>개인정보가 담긴 파일은 접근이 통제된 곳에만 보관합니다.</li>
 </ol>
-<h2 id="section-10">제10조 (자동 수집 장치의 설치·운영과 거부)</h2>
+<h2 id="section-11">제10조 (자동 수집 장치의 설치·운영과 거부)</h2>
 <p>게임은 쿠키를 사용하지 않습니다. 광고 SDK가 광고 ID를 사용하는 것과 이를 거부하는 방법은 제6조와 같습니다.</p>
-<h2 id="section-11">제11조 (앱 접근 권한)</h2>
+<h2 id="section-12">제11조 (앱 접근 권한)</h2>
 <p>게임은 사진, 연락처, 위치, 카메라, 마이크 등 기기의 정보나 기능에 접근하는 권한을 요청하지 않습니다. 인터넷 연결 등 게임 실행에 필요한 기본 권한만 사용합니다.</p>
-<h2 id="section-12">제12조 (자동화된 결정)</h2>
+<h2 id="section-13">제12조 (자동화된 결정)</h2>
 <p>운영자는 완전히 자동화된 시스템으로 이용자의 권리나 의무에 중대한 영향을 미치는 결정을 하지 않습니다.</p>
-<h2 id="section-13">제13조 (개인정보 보호책임자)</h2>
+<h2 id="section-14">제13조 (개인정보 보호책임자)</h2>
 <p>운영자는 개인정보 처리에 관한 업무를 총괄하고 이용자의 불만과 피해 구제를 처리하기 위해 다음과 같이 개인정보 보호책임자를 지정합니다.</p>
 <table>
 <thead>
@@ -246,7 +264,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="section-14">제14조 (권익침해 구제 방법)</h2>
+<h2 id="section-15">제14조 (권익침해 구제 방법)</h2>
 <p>개인정보 침해에 대한 상담이나 피해 구제가 필요하면 다음 기관에 문의할 수 있습니다.</p>
 <ul>
 <li>개인정보분쟁조정위원회: (국번없이) 1833-6972 (<a href="http://www.kopico.go.kr">www.kopico.go.kr</a>)</li>
@@ -254,6 +272,6 @@
 <li>대검찰청: (국번없이) 1301 (<a href="http://www.spo.go.kr">www.spo.go.kr</a>)</li>
 <li>경찰청: (국번없이) 182 (ecrm.police.go.kr)</li>
 </ul>
-<h2 id="section-15">제15조 (개인정보 처리방침의 변경)</h2>
-<p>이 개인정보 처리방침은 2026년 10월 10일부터 적용됩니다. 내용이 바뀌면 시행일 7일 전부터 웹 페이지와 게임 안 공지로 알립니다.</p>
+<h2 id="section-16">제15조 (개인정보 처리방침의 변경)</h2>
+<p>이 개인정보 처리방침은 2026년 10월 17일부터 적용됩니다. 내용이 바뀌면 시행일 7일 전부터 웹 페이지와 게임 안 공지로 알립니다.</p>
 </main><footer>문의: <a href="mailto:onegames.dev@gmail.com">onegames.dev@gmail.com</a></footer></body></html>
